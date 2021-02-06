@@ -1,0 +1,87 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-radius: 5px;
+  background-color:blue;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  border:2px solid DodgerBlue;
+}
+
+h3 {
+  text-align: center;
+  color: green;
+  border:2px solid Violet;
+
+}
+
+h4 {
+  text-align: center;
+  color: yellow;
+  border:2px solid red;
+}
+
+h5 {
+  text-align: center;
+  color: navy;
+  border:2px solid SlateBlue;
+}
+
+h6 {
+  text-align: center;
+  color: black;
+  border:2px solid MediumSeaGreen;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+  font-size: 50px;
+}
+#footer{
+	margin-bottom: 0px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
